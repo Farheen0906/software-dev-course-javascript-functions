@@ -96,10 +96,11 @@ console.log("The product of 5 and 10 is " + multiplyTwoNumbers(5,10));
 
 
 // Script 4 - Print names from a list
-function printArrayNames(names){
+function printArrayNames(list){
     console.log("Names in the list:"); 
-        for (let i = 0; i < names.length; i++) {
-        console.log(names[i]);
+        for (let i = 0; i < list.length; i++) {
+        console.log(list[i]);
 }
 }
-printArrayNames(["Alice", "Bob", "Charlie"]);
+printArrayNames(names);
+
